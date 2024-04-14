@@ -20,8 +20,8 @@ public class Solution {
     }
 
     /*
-    a,b => 1 | c,d,e => 2 | f,g,h => 3 | i,j,k => 4 | l,m,n => 5
-    o,p,q => 6 | r,s,t => 7 | u,v,w => 8 | x,y,z => 9
+     a,b => 1 | c,d,e => 2 | f,g,h => 3 | i,j,k => 4 | l,m,n => 5
+     o,p,q => 6 | r,s,t => 7 | u,v,w => 8 | x,y,z => 9
      */
     private int letterToButtonDigit(char letter) {
         return (letter - 'a' + 4) / 3;
